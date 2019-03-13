@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/more_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:fontFamily="casual"
+                android:text="More"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="40dp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/flag"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:background="@drawable/us"
+                android:onClick="changeLanguage"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|center_vertical"
+                android:fontFamily="casual"
+                android:gravity="center|center_vertical"
+                android:text="Collect paper, plastic, polyethylene and glass separately and bring to Zipple (Malakan Park, 043409090) or (ZAKIAN 10 ONLY PAPER , 091913536).
+You know  that only together we can begin sorting and recycling our waste bin. Paper, plastic, glass ...
+ Be sure to join 🙂 Small steps, with great success..."
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="27dp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/img1"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/img2"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/img3"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/img4"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/img5"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/img6"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/img7"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/img8"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/img9"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/img10"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
